@@ -18,6 +18,7 @@ namespace MicrosoftExcelTest
         {
             //必须加上该行，否则在debug模式下，会报LicenseException异常。
             //其他的License验证方式见 https://github.com/EPPlusSoftware/EPPlus
+            //当前使用的验证方式是用的添加appSetting.json文件的方式
             //ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
             //create();
